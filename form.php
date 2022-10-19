@@ -9,5 +9,5 @@ if(isset($_POST['submitquestion'])) {
     $emailtext = "You've got mail!\n\n\n".$question;
 
     mail($emailaddress, $subject, $emailtext, $emailheaders);
-    header("Location: index?mailsend");
+    header("Location: aboutme.html?mailsend");
 }
