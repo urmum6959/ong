@@ -6,7 +6,7 @@ if(isset($_POST['submitquestion'])) {
     $subject = "uwu";
     $emailaddress = "skillama@outlook.com";
     $emailheaders = "From: Anonymous";
-    $emailtext = "You've got mail!\n\n\n".$question;
+    $emailtext = "You've got mail!\n".$question;
 
     mail($emailaddress, $subject, $emailtext, $emailheaders);
     header("Location: aboutme.html?mailsend");
