@@ -1,0 +1,27 @@
+.red{
+    color:red;
+}
+
+.fourohfour{
+    font-size: 300%;
+}
+
+#container {
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    width: 100%;
+    height: 98.4vh;
+}
+body{
+    width:auto;
+    height:auto;
+    background:linear-gradient(69deg, rgb(0, 255, 255) 0%, rgb(0, 200, 255) 50%, rgb(0, 150, 255) 100%);
+}
+
+.box {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+}
