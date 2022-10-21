@@ -1,0 +1,64 @@
+.red{
+    color:red;
+}
+
+.fourohfour{
+    font-size: 200%;
+}
+
+/*.backgradblue{
+    background:linear-gradient(69deg, rgb(0, 255, 255) 0%, rgb(0, 200, 255) 50%, rgb(0, 150, 255) 100%);
+    height: 1vh;
+    width: auto;
+}*/
+
+.smallhr{
+    width:75%;
+}
+.smallerhr{
+    width:25%;
+}
+
+body, head{
+    font-family: 'fira-sans', sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    font-style: normal;
+    margin:0;
+    color:white;
+    background: rgb(32, 40, 51);
+    width:auto;
+    height:auto;
+    overflow-x:hidden;
+}
+
+section{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 25px;
+    padding:100px 20vw;
+}
+
+::-webkit-scrollbar{
+    width:0.4em;
+}
+::-webkit-scrollbar-track{
+    background: rgb(45, 55, 68);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(21, 30, 41);
+    border-radius: 100vw;
+}
+
+@supports(scrollbar-color: black white){
+    *{                          
+        scrollbar-color: rgb(21, 30, 41) rgb(45, 55, 68);
+        scrollbar-width: thin;
+    }
+}
