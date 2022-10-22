@@ -3,7 +3,7 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /images/
 
-User-agent: nsa
-Disallow: /
+User-Agent: brother
+Disallow: /my-room/
 
-Sitemap:sitemap.xml
+#wait a minute, you're not a robot!
