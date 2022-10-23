@@ -18,17 +18,20 @@ head {
 }
 
 .forminput,
-.forminput:active,
-.forminput:hover,
 .formsubmit {
 	background-color: rgb(26, 33, 43);
-	border-radius: 100px;
+	border-radius: 1.5em;
 	border-width: 0;
-	padding: 0.5rem;
+	padding: 1rem;
 	font-size: 1.5rem;
 	outline-width: 0;
 	text-align: center;
 	color: white;
+}
+.formsubmit:hover,
+.forminput:active,
+.forminput:hover {
+	background-color: rgb(41, 55, 75);
 }
 
 /*.formsubmit{
