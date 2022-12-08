@@ -13,10 +13,10 @@ class NavBar extends HTMLElement {
                 <li><a href="index">home</a></li>
                 <li><a href="aboutme">about me</a></li>
                 <li><a href="socials">socials</a></li>
-                <li><a href="ama">ask me anything</a></li>
             </ul>
         </div>
     </nav>
+    
     
         `;
 	}
